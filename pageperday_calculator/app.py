@@ -28,7 +28,6 @@ def get_output(pn, pr, d, f):
     output += "\nyou have to read {} pages a day to finish this \nbook on time!".format(f)
     return output
 
-
 dpg.create_viewport(title='Page per Day Calculator', width=600, height=300)
 
 with dpg.window(label="Page per Day Calculator", width = 350, height = 250):
